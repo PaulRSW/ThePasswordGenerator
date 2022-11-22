@@ -1,0 +1,48 @@
+<HTML>
+	<HEAD>
+		<link rel = "stylesheet" href="style.css">
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Karla:wght@800&display=swap" rel="stylesheet">
+	</HEAD>
+	<BODY>
+		<div id="main-wrapper">
+			<div id="main-div">
+				<h3>Generate a <span id="highlight-title">random password</span></h3>
+				
+				<p>never use an insecure password again.</p>
+				<div id="gen-pw-div">
+					<div>
+						<button id = "generate-pw-btn" onclick="generatePasswords()">Generate Passwords</button>
+					</div>
+					<div> 
+						<input id="el-num-pw" type="number">
+					</div>
+				</div>
+			</div>
+			<div id="bottom-wrapper">
+				<div id="asnwer-div">
+					<div id="password-Ans-Div1">
+						<p id="el-password1">password</p>
+					</div>
+					<div id="password-Ans-Div2">
+						<p id="el-password2">password</p>
+					</div>
+				</div>
+				
+				<div id="btn-wrapper">
+					<div id="copy-btn-div1">
+						<button id="copy1-btn" onclick="copy()">Copy Password</button>
+					</div>
+					<div id="copy-btn-div2">
+						<button id="copy2-btn" >Copy Password</button>
+					</div>
+				</div>	
+			</div>
+		</div>
+		<script src="index.js"></script>
+	</BODY>
+	
+</HTML>
+

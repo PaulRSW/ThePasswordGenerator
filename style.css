@@ -1,0 +1,150 @@
+body{
+	margin: none;
+	padding:none;
+	background:#1C1C1C;
+	color: #FFFFFF;
+
+}
+
+h3{	
+	font-family: 'Karla', sans-serif;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 40px;
+	line-height: 40px;
+	letter-spacing: -0.025em;
+	color:white;
+	width:354px;
+	padding:0;
+	margin:0;
+	
+}
+
+#highlight-title{
+	color:#4ADF86;
+}
+
+p{
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 28px;
+	color: #D5D4D8;;
+}
+
+#generate-pw-btn{
+	width:191px;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	background:#10B981;
+	color:white;
+	border-radius: 6px;
+	margin:51px 0 35px 0;
+	padding:9px 17px 9px 15px;
+	box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+	border:0;
+	text-align: center;
+}
+
+#el-num-pw{
+	margin:51px 0 35px 10px;
+	width: 242px;
+	height:42px;
+	padding: 4px 16px 3px 15px;
+	color: #55F991;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 32px;
+	background: #273549;
+	border-radius: 6px;
+	text-align: center;
+	border:0;
+}
+
+#main-wrapper{
+	width: 550px;
+	background:	#1F2937;
+	border-radius: 6px;
+	padding:115px 0 0;
+	margin: 64px auto;
+}
+
+#main-div{
+	margin:0 52px;
+	border-bottom: 1px solid #2F3E53;
+}
+
+#bottom-wrapper{
+	display: flex;
+	flex-direction: row;
+	justify-content:space-evenly;
+	margin:0 52px;
+	padding-bottom: 52px;
+}
+
+#asnwer-div{
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content:space-evenly;
+}
+
+#gen-pw-div{
+	margin:0 auto;
+	display:flex;
+
+}
+
+#password-Ans-Div{
+	margin:none;
+}
+
+
+  #el-password1, #el-password2 {
+	margin:39px 0 0;
+	width: 211px;
+	padding: 4px 16px 3px 15px;
+	color: #55F991;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 32px;
+	background: #273549;
+	border-radius: 6px;
+	text-align: center;
+ } 
+ 
+
+ #btn-wrapper{
+	margin:0;
+	display: flex;
+	flex-direction: column;
+	/* justify-content:space-evenly; */
+	justify-content:space-between;
+ }
+
+ #copy2-btn, #copy1-btn{
+	margin:39px 0 0 11px;
+	height:39px;
+	width:191px;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	background:#10B981;
+	color:white;
+	border-radius: 6px;
+	padding:9px 17px 9px 15px;
+	box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+	border:0;
+	text-align: center;	
+ }
+
