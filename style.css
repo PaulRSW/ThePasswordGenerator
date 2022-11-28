@@ -49,7 +49,50 @@ p{
 	border:0;
 	text-align: center;
 }
+#slidertitle{
+	margin:38px 0 0 0;
+}
+#gen-pw-div{
+	margin:0 auto;
+	display:flex;
 
+}
+.slidecontainer {
+	margin-left: 10px;
+	width: 240px;
+  }
+  .slider {
+	-webkit-appearance: none;
+	width: 100%;
+	height: 25px;
+	background: #273549; /*#d3d3d3;*/
+	outline: none;
+	opacity: 0.7;
+	-webkit-transition: .2s;
+	transition: opacity .2s;
+  }
+
+  .slider:hover {
+	opacity: 1;
+  }
+  
+
+.slider::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	appearance: none;
+	width: 25px;
+	height: 25px;
+	background:#55F991;
+	cursor: pointer;
+  }
+  /* this part is for firefox*/
+  .slider::-moz-range-thumb {
+	width: 25px;
+	height: 25px;
+	background:#55F991;
+	cursor: pointer;
+  }
+  
 #el-num-pw{
 	margin:51px 0 35px 10px;
 	width: 242px;
@@ -95,11 +138,7 @@ p{
 	justify-content:space-evenly;
 }
 
-#gen-pw-div{
-	margin:0 auto;
-	display:flex;
 
-}
 
 #password-Ans-Div{
 	margin:none;

@@ -16,9 +16,14 @@
 					<div>
 						<button id = "generate-pw-btn" onclick="generatePasswords()">Generate Passwords</button>
 					</div>
-					<div> 
-						<input id="el-num-pw" type="number">
+					<div>
+						<div class="slidecontainer">
+							<p id="slidertitle">Value: <span id="demo"></span></p>
+							<input type="range" min=1 max=25 value=15 class="slider" id="myrange">
+						</div>
 					</div>
+						
+				
 				</div>
 			</div>
 			<div id="bottom-wrapper">
@@ -33,7 +38,7 @@
 				
 				<div id="btn-wrapper">
 					<div id="copy-btn-div1">
-						<button id="copy1-btn" onclick="copy()">Copy Password</button>
+						<button id="copy1-btn">Copy Password</button>
 					</div>
 					<div id="copy-btn-div2">
 						<button id="copy2-btn" >Copy Password</button>
